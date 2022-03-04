@@ -69,7 +69,29 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+### Range.java
+
+Our methods: 
+1. combine(Range, Range)
+2. contains(double)
+3. getLength()
+4. getLowerBound()
+5. isNaNRange()
+
+#### Instruction Counter
+
+![pasted image 0](https://user-images.githubusercontent.com/6359905/156857539-7b479113-d547-46b2-81f0-ccc30f73cfe3.png)
+
+### Branch Counter
+
+![pasted image 0 (1)](https://user-images.githubusercontent.com/6359905/156857553-0ffbc9dc-1d59-4d44-ab9a-0e08964f97de.png)
+
+### Method Counter
+
+![pasted image 0 (2)](https://user-images.githubusercontent.com/6359905/156857559-773c7252-aa49-4277-bf1b-fc766b3443e1.png)
+
+
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
