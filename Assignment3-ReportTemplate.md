@@ -33,7 +33,15 @@ Text…
 | r        |  8  | {5, 8}   | {(4,5), (4,9)}  |
 | n        |  5  | {7}      | {(6,7), (6,8)}  |
 
+### Range.combine data-flow coverage
+![DU-Pairs]()
 
+| Variable | Def | dcu(v,n) | dpu(v,n)        |
+| -------- | --- | -------- | --------------- |
+| range1   |  1  | {5,6,7}  | {(2,3), (2,4)}  |
+| range2   |  1  | {3,6,7}  | {(4,5), (4,6)}  |
+| l        |  6  | {8}      | {}              |
+| u        |  7  | {8}      | {}              |
 
 # 3 A detailed description of the testing strategy for the new unit test
 
