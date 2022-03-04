@@ -33,6 +33,22 @@ Text…
 | r        |  8  | {5, 8}   | {(4,5), (4,9)}  |
 | n        |  5  | {7}      | {(6,7), (6,8)}  |
 
+
+Test1, `calculateColumnTolalForAllRowsTest()`:
+Covers All DU-Pairs expect: `<data, 1, (2, 10)>` and `<n, 5, (6,8)>`
+
+Test2, `calculateColumnTolalForInvalidColoumn()`: 
+Same as Test1. Has been implemented in black-box testing to check thrown error.
+
+Test3, `calculateColumnTolalForNullData()`:
+Covers `<data, 1, (2,10)>`
+
+Test4, `calculateColumnTotallSkipsNullValues()`:
+Covers all DU-Pairs expect: `<data, 1, (2,10)>`
+
+So, The DU-Pair coverage is 100%.
+
+
 ### Range.combine data-flow coverage
 ![DU-Pairs](media/RangeDataGraph.png)
 
