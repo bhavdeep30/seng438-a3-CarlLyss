@@ -2,12 +2,12 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
+| Group \#:42      |     |
 | -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Student Names: | Carl Lyss    |
+|                | Bhavdeep Purba     |
+|                | Mohammadreza Osouli     |
+|                | Mohamed Mansour     |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
