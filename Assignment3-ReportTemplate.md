@@ -18,7 +18,22 @@ Text…
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-Text…
+### CalculateColumnTotal data-flow coverage
+
+![DU-Pairs](https://user-images.githubusercontent.com/6359905/156854472-f15f3298-e282-4f25-9561-7c5fa7c52006.jpg)
+
+| Variable | Def | dcu(v,n) | dpu(v,n)        |
+| -------- | --- | -------- | --------------- |
+| data     |  1  | {3, 5}   | {(2,3), (2,10)} |
+| column   |  1  | {5}      | {}              |
+| total    |  3  | {7, 9}   | {}              |
+| total    |  7  | {7, 9}   | {}              |
+| rowCount |  3  | {4}      | {}              |
+| r        |  3  | {5, 8}   | {(4,5), (4,9)}  |
+| r        |  8  | {5, 8}   | {(4,5), (4,9)}  |
+| n        |  5  | {7}      | {(6,7), (6,8)}  |
+
+
 
 # 3 A detailed description of the testing strategy for the new unit test
 
