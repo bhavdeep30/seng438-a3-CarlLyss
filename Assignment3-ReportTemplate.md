@@ -34,7 +34,7 @@ Text…
 | n        |  5  | {7}      | {(6,7), (6,8)}  |
 
 ### Range.combine data-flow coverage
-![DU-Pairs]()
+![DU-Pairs](media/RangeDataGraph.png)
 
 | Variable | Def | dcu(v,n) | dpu(v,n)        |
 | -------- | --- | -------- | --------------- |
