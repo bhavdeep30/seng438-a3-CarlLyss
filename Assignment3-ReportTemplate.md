@@ -154,7 +154,11 @@ Although it was easy to start, the hierarchy menu of methods was a little annoyi
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+Coverage based testing is more rigid than requirements based testing. This rigidity allows for effective automation on checking the coverage, enabling quick generation of tests. However to reach high coverage it requires many tests, more than we generated with requirements based generation.  This coverage can show areas of code that are untested, and even if no tests are created for them, then if a bug is still found you can look at the uncovered areas first, possibly increasing the rate of bug fixing. 
+
+Requirements based testing allowed for us to focus on the areas that were most likely to have faults, while coverage based testing treats all segments of code as equal for testing. 
+
+An interesting thing to note is that even though we had a more powerful test set with coverage based testing, we found no additional bugs compared to our requirements based testing. This provides some evidence to the argument that the coverage based testing isn’t the most efficient use of time.  
 
 # 8 A discussion on how the teamwork/effort was divided and managed
 
