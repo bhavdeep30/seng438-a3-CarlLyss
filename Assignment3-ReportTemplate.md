@@ -14,7 +14,7 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+In this lab we imported our test cases for testing the classes org.jfree.data.DataUtilities and org.jfree.data.Range that we had developed in Assignment 2. After importing, we used the testing tool EclEmma that is built in to the Eclipse IDE to measure the control flow coverage of the two classes. We then added additional test cases to improve the instruction, branch, and the method coverage to 90%, 70%, and 60% respectively.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
@@ -78,11 +78,15 @@ The DU-Pair coverage is 100%.
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+We decided to add test cases for the method “equal” of DataUtilities as it was missing coverage. Since this method had a lot of “if” statements we added test cases so that the branch coverage could be improved greatly, as well as additional coverage for instructions and methods.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
 Note: For the measurements of the Range class, all coverage criteria for the tested methods were at 100% coverage. Because of this we generated no additional tests for these methods. 
+
+For DataUtilities:
+The method equal accepts two two-dimensional arrays and tests them for equality. The first test case was equalBothNulltest() which passed the method 2 null arrays as they were permitted values for the arrays and was tested to return true. The second test was equalANulltest() that passed the first array as null and had a 3 value double array as the second parameter and was tested to be false. The third test equalBNullTest() was the opposite as it passed the first array as an initialized array and the second as a null, again tested to return false. The fourth test equalSameLengthDifferentValuesTest() passed the function arrays of the same length but with different values to test one of the "if" statements and the final test equalSameLengthSameValuesTest() tested the function for 2 identical arrays and tested for a true boolean value returned. 
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
