@@ -168,4 +168,6 @@ Text…
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+This assignment is so usefull as white-box testing and coverage are very common in the industry. It was so good that white-box testing was the follow-up for black-box testing we had in the last assignment. So, we think that this assignment was overally practical.
+
+The tool we used was not able to do condition coverage so we did method coverage instead, but the method coverage is not practical enough for this assignment because we had to write tests for 5 methods in the last assignments and all those methods are going to be counted as coverage (which is not showing anything about the quality of our tests). So, replacing method coverage with some other coverage, or reducing the number of reported counters from 3 to 2 may be more practical.
