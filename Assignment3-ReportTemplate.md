@@ -156,9 +156,11 @@ Although it was easy to start, the hierarchy menu of methods was a little annoyi
 
 Text…
 
-# 8 A discussion on how the team work/effort was divided and managed
+# 8 A discussion on how the teamwork/effort was divided and managed
 
-Text…
+We separated our group into two teams as we did in last assignment. Carl and Mohamed have written the tests for Range class in last assignment, and they were aware of different aspects of this class. Bhavdeep and Mohammadreza have worked on the DataUtilities class and knew about this class more than others. So we decided to have the same teams as we had in last assignment to make the progress faster. In each group, both team members observed the coverage values of different methods and discussed on the way of improvment.
+
+At the end, all members of the group collect their experience together to write the report. 
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
