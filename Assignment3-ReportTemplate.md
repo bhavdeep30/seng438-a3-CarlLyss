@@ -61,18 +61,20 @@ So, The DU-Pair coverage is 100%.
 
 Pair Coverage for each test case:
 There are 11 tests for range.combine. They cover the following def-use pairs in order: 
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-range1 { (1,2) (1,5)}  range2 {(1,4)}  l {()}  u {()}
-range1 { (1,2) }  range2 {(1,3)}  l {()}  u {()}
-range1 { (1,2) }  range2 {(1,3)}  l {()}  u {()}
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
-The coverage is 100%
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+* range1 { (1,2) (1,5)}  range2 {(1,4)}  l {()}  u {()}
+* range1 { (1,2) }  range2 {(1,3)}  l {()}  u {()}
+* range1 { (1,2) }  range2 {(1,3)}  l {()}  u {()}
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+* range1 { (1,2) (1,6), (1,7)}  range2 {(1,4) (1,6), (1,7)}  l {(6,8)}  u {(7,8)}
+
+The DU-Pair coverage is 100%.
+
 
 # 3 A detailed description of the testing strategy for the new unit test
 
