@@ -78,7 +78,7 @@ The DU-Pair coverage is 100%.
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-We decided to add test cases for the method “equal” of DataUtilities as it was missing coverage. Since this method had a lot of “if” statements we added test cases so that the branch coverage could be improved greatly, as well as additional coverage for instructions and methods.
+We decided to add test cases for the method “equal” of DataUtilities as it was missing coverage. Since this method had a lot of “if” statements we added test cases so that the branch coverage could be improved greatly, as well as additional coverage for instructions and methods. We also calculated the DU-pair coverage for the two methods DataUtilities.calculateColumnTotal and Range.combine.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
