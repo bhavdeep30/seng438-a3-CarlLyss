@@ -82,7 +82,7 @@ Text…
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+Note: For the measurements of the Range class, all coverage criteria for the tested methods were at 100% coverage. Because of this we generated no additional tests for these methods. 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
@@ -168,7 +168,7 @@ At the end, all members of the group collect their experience together to write 
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+The main concern for this lab was the initial division of labor, not necessarily being equal when the actual work began. The team that worked on Range had 100% test coverage in all tested cases, so generating new tests would be redundant. Because of this the Range team had far less to do. We solved this by having more work given to them through the manual measure of data flow. 
 
 # 10 Comments/feedback on the lab itself
 
