@@ -82,15 +82,50 @@ Our methods:
 
 ![pasted image 0](https://user-images.githubusercontent.com/6359905/156857539-7b479113-d547-46b2-81f0-ccc30f73cfe3.png)
 
-### Branch Counter
+#### Branch Counter
 
 ![pasted image 0 (1)](https://user-images.githubusercontent.com/6359905/156857553-0ffbc9dc-1d59-4d44-ab9a-0e08964f97de.png)
 
-### Method Counter
+#### Method Counter
 
 ![pasted image 0 (2)](https://user-images.githubusercontent.com/6359905/156857559-773c7252-aa49-4277-bf1b-fc766b3443e1.png)
 
+### DataUtilities.java
 
+Our Methods: All Methods (one method has been added in this assignment)
+
+#### Instruction Counter
+
+##### Before improvement
+
+![pasted image 0 (3)](https://user-images.githubusercontent.com/6359905/156857825-4bb1bfd9-4742-4549-89cf-94631418b636.png)
+
+##### After improvement
+
+![pasted image 0 (4)](https://user-images.githubusercontent.com/6359905/156857836-48511a37-f1ae-4454-b1a8-704007ddac62.png)
+
+
+#### Branch Counter
+
+##### Before improvement
+
+![pasted image 0 (5)](https://user-images.githubusercontent.com/6359905/156857846-5633a995-89b5-4887-aef0-fd6ea5f5e429.png)
+
+##### After improvement
+
+![pasted image 0 (6)](https://user-images.githubusercontent.com/6359905/156857858-398591b6-7871-459b-aa69-f1db5aab87a0.png)
+
+
+#### Method Counter
+
+##### Before improvement
+
+![pasted image 0 (7)](https://user-images.githubusercontent.com/6359905/156857863-5205e0ea-8194-4344-8335-8347a38da16b.png)
+
+
+##### After improvement
+
+![pasted image 0 (8)](https://user-images.githubusercontent.com/6359905/156857872-efda841b-d274-4b4c-952a-a00e84310128.png)
 
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
