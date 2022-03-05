@@ -147,7 +147,10 @@ Our Methods: All Methods (one method has been added in this assignment)
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Text…
+We have used EclEmma as the automatic test coverage tool. As it was already installed on eclipse, it was very easy to be used. It has several metrics such as instruction, branch, line, method, type, and complexity counters. The coverage visualization is useful and intuitive like the colors and bars showing coverage information. One of the parts was code highlighting. For each part, the code has been highlighted with colors of green (which means covered code), red (which means uncovered code), and orange (which means partially covered code, such as branches and conditions). We easily discovered our coverage holes using this highlighting tool.
+
+Although it was easy to start, the hierarchy menu of methods was a little annoying. Also, It was showing the whole code coverage when we execute tests for only one class which was unnecessary and made it hard to find the related class. Moreover, the test file was in the coverage itself and it was misleading at the start because it had a high percentage of coverage (which is obvious because we executed the test file directly).  
+
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
